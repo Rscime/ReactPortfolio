@@ -2,11 +2,9 @@ import React from 'react';
 import '../styles/Footer.css';
 
 const styles = {
-    footerStyle: {
-      background: '#ecff8f',
-    },
     footerText: {
-        fontSize: '10px',
+        fontSize: '25px',
+        marginLeft: '44%', 
     }
   };
 

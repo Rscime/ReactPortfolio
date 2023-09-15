@@ -24,8 +24,8 @@ function Navbar() {
         <ul style={styles.navbarTitle}>
                 <li><a href="#section-1">About Me</a></li>
                 <li><a href="#section-2">Portfolio</a></li>
-                <li><a href="#section-3">Contact</a></li>
                 <li><a href="#section-4">Resume</a></li>
+                <li><a href="#section-3">Contact</a></li>
         </ul>
       </nav>
     );

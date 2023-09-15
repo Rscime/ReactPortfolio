@@ -51,14 +51,6 @@ function Section() {
         <break>
         </break>
 
-        <h2 id="section-3">Contact</h2>
-    {/* NEED TO ADD A FORM FOR THIER CONTACT.. NOT MINE */}
-        <p>
-        
-        </p>
-        <break>
-        </break>
-
         <h2 id="section-4">Resume</h2>
         <p>
         

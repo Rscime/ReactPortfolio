@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Form.css';
+import { validateEmail } from '../utils/helpers';
 
 const styles = {
     sectionStyles: {
@@ -11,6 +12,7 @@ function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -29,6 +31,10 @@ function Form() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
+    if (!validateEmail(email)) {
+      setErrorMessage('Invalid Email!')
+      return;
+    }
     // Alert the user their first and last name, clear the inputs
     setName('');
     setEmail('');
@@ -64,6 +70,11 @@ function Form() {
           Submit
         </button>
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 }

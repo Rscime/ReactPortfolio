@@ -27,34 +27,29 @@ function Section() {
         </break>
 
         <h2 id="section-2">Portfolio</h2>
-        <div class="card one">
                 <h3><a href="https://rscime.github.io/prework-study-guide/">CSS, HTML, JavaScript Study Guide</a></h3>
-            </div>
-            <div class="card two">
+                <h4><a href="https://github.com/Rscime/prework-study-guide">Repository</a></h4>
+            <div className="card one"></div>
                 <h3><a href="https://rscime.github.io/HoriseonHomepage">Sample Business Homepage</a></h3>
-            </div>
-            <div class="card">
+                <h4><a href="https://github.com/Rscime/HoriseonHomepage">Repository</a></h4>
+            <div className="card two"></div>
                 <h3><a href="https://rscime.github.io/Jetlagged/">JetLagged</a></h3>
-            </div>
-            <div class="card three">
-                <h3><a href="#">card four</a></h3>
-            </div>
-            <div class="card four">
-                <h3><a href="#">card five</a></h3>
-            </div>
-            <div class="card five">
-                <h3><a href="#">card five</a></h3>
-            </div>
-            <div class="card six">
-                <h3><a href="#">card five</a></h3>
-            </div>
+                <h4><a href="https://github.com/Rscime/Jetlagged">Repository</a></h4>
+            <div className="card three"></div>
+                <h3><a href="https://polar-fjord-40224-3c437fb71328.herokuapp.com/">Text Editor</a></h3>
+                <h4><a href="https://github.com/Rscime/TextEditor">Repository</a></h4>
+            <div className="card four"></div>
+                <h3><a href="https://ymster-3e5525cf81e8.herokuapp.com/#homepage-lunch">Yumster</a></h3>
+                <h4><a href="https://github.com/Titan-MP/yumster.git">Repository</a></h4>
+            <div className="card five"></div>
+                <h3><a href="https://watch.screencastify.com/v/fHiR5uD8smo5svvV3YFi">SQL Employee Manager - Video Walkthrough</a></h3>
+                <h4><a href="https://github.com/Rscime/EmployeeManager">Repository</a></h4>
+            <div className="card six"></div>
         <break>
         </break>
 
         <h2 id="section-4">Resume</h2>
-        <p>
-        
-        </p>
+        <h4><a href="/Rachel_Scime_Resume.pdf">Downloadable Resume</a></h4>
         <break>
         </break>
 

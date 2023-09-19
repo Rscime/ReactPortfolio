@@ -26,27 +26,27 @@
 }
 
 .one{
-    background-image: url("https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-image: url('../public/App1.png');
 }
 
 .two{
-    background-image: url("https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-image: url('../public/App2.png');
 }
 
 .three{
-    background-image: url("https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-image: url('../public/App3.png');
 }
 
-.fou{
-    background-image: url("https://images.unsplash.com/photo-1676675356577-ccdb5bec1f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+.four{
+    background-image: url('../public/App4.png');
 }
 
 .five{
-    background-image: url("https://images.unsplash.com/photo-1676594037928-4ae848ffec58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
+    background-image: url('../public/App5.png');
 }
 
 .six{
-    background-image: url("https://images.unsplash.com/photo-1675518806026-53201020ef09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-image: url('../public/App6.png');
 }
 
 .card a{

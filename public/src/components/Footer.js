@@ -11,7 +11,7 @@ const styles = {
 function Footer() {
     return (
       <footer style={styles.footerStyle} className="footer">
-        <p style={styles.footerText}>Thanks for visiting!</p>
+        <p style={styles.footerText}><a href="https://github.com/Rscime">Click here for Rachels GitHub</a></p>
       </footer>
     );
   }

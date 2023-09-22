@@ -2,7 +2,7 @@
   "name": "ReactPortfolio",
   "version": "1.0",
   "private": true,
-  "homepage": "https://github.com/Rscime/ReactPortfolio",
+  "homepage": "https://Rscime.github.io/ReactPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
